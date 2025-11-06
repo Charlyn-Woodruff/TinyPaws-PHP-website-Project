@@ -1,0 +1,222 @@
+
+
+:root{
+    --bs-body-font-family: 'Great Vibes', "sanserif";
+   
+}
+
+html {
+    background-image:url("images/pic5.jpg");
+    background-size:10%;
+    background-repeat: repeat;
+}
+body{
+    margin:150px;
+}
+#cat {
+    position: fixed;
+    bottom: 0%;
+    right: 5%;
+    width: 20%;
+}
+
+h1{
+    letter-spacing:5px;
+    font-size: 3.7em;
+    font-weight: bold;
+    background-color: #115ac1;
+}
+
+h3{
+    letter-spacing:2px;    
+    font-size:3em;
+    font-weight: bold; 
+}
+
+.h4{
+    font-weight:bold;
+    font-size:1.2em;
+    font-family: Oswald, Helvetica, sans-serif;
+}
+.image{
+    width:100%;
+    height:100%;
+}
+
+.top_h1{
+    background-color: #115ac1;
+    font-size: 1.1em;
+    color:white;    
+}
+
+.top_menu{
+    background-color: #115ac1;
+    padding:7px;
+    font-family: Oswald, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color:white;
+}
+
+.side_menu{
+    background-color: #115ac1;
+    letter-spacing: 3px;
+    font-size: 1.7em;
+    padding: 10px 0px;
+    padding-bottom: 30px;
+}
+
+.welcome{
+    background-color: white;
+    letter-spacing: 3px;
+    font-size: .5em; 
+}
+
+.btn:hover{
+    background-color: #115ac1;
+    color:white;
+}
+
+p{   
+    font-family: Roboto, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    text-indent: 25px;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 8px 20px;
+    margin-top: 10px;
+    margin-left:15px;
+    border: 5px solid white;
+}
+
+label{
+	font-weight:bold;
+}
+
+a{
+    color:white;
+    padding-left: 3px;
+}
+
+a:hover {
+    color:#115ac1;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 10px;  
+}
+
+.footer{
+    background-color: #115ac1;
+    font-size: 1.5em;
+    color:white;
+}
+
+
+.panel-heading{
+    background-color:#115AC1;
+    color:white;
+    width:50%;
+    margin:auto;
+    padding:5px 5px 0px 5px;
+}
+
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+    padding: 1px 5px 1px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    }
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    color: white;
+    background-color:#115ac1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 40px;
+    margin-left: 50px;
+    padding:10px 10px;
+    background-color:red;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    color:white;
+    background-color: #115ac1;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+
+@media (max-width: 550px) {
+    .big-container {
+        display: none;
+    }
+}
+@media (min-width: 550px) {
+   .small-container {
+       display: none;
+   }
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 30px;
+   height: 0;
+   overflow: hidden;
+}
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
